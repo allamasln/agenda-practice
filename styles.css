@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+ul li {
+	display: flex;
+	border: 1px solid #444;
+	justify-content: space-between;
+	padding: 0 1rem;
+	background-color: #f1f1f1;
+}
+
+img {
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+}
+
+main {
+	display: flex;
+}
+
+section {
+	width: 100%;
+	padding: 0 1rem;
+}
+
+section:first-child {
+	border-right: 1px dashed #444;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+label {
+	display: block;
+}
+
+input {
+	width: 100%;
+	padding: 5px 15px;
+}
+
+.submit {
+	text-align: right;
+}
